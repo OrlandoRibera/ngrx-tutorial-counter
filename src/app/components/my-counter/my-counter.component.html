@@ -1,0 +1,11 @@
+<button (click)="increment()">Increment</button>
+
+<div>Current Count: {{ counter }}</div>
+
+<button (click)="decrement()">Decrement</button>
+
+<button (click)="reset()">Reset Counter</button>
+
+<hr />
+
+<input type="number" name="modify-by" id="modify-by" [(ngModel)]="modifyBy" />
